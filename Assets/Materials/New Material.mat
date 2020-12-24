@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: New Material
-  m_Shader: {fileID: 4800000, guid: 5ece2d53bdfee0d419901397bf30b43d, type: 3}
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _APPLYNORMALMAPPING_ON _CAUSTICS_ON _COMPUTEDIRECTIONALLIGHT_ON
     _FOAM3DLIGHTING_ON _FOAM_ON _SUBSURFACESCATTERING_ON _SUBSURFACESHALLOWCOLOUR_ON
     _TRANSPARENCY_ON
@@ -118,10 +118,10 @@ Material:
     - _FoamScale: 10
     - _FresnelPower: 5
     - _GlossMapScale: 1
-    - _Glossiness: 0.52
+    - _Glossiness: 0.079
     - _GlossyReflections: 1
     - _MeniscusWidth: 1
-    - _Metallic: 0.019
+    - _Metallic: 0.184
     - _Mode: 0
     - _NormalsScale: 40
     - _NormalsStrength: 0.36
@@ -161,7 +161,7 @@ Material:
     - _WaveFoamSpecularFallOff: 293
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.754717, g: 0.13171947, b: 0.13171947, a: 1}
+    - _Color: {r: 0.46226418, g: 0.041429326, b: 0.041429326, a: 1}
     - _DepthFogDensity: {r: 0.33, g: 0.23, b: 0.37, a: 1}
     - _Diffuse: {r: 0, g: 0.0124, b: 0.566, a: 1}
     - _DiffuseGrazing: {r: 0.184, g: 0.393, b: 0.519, a: 1}

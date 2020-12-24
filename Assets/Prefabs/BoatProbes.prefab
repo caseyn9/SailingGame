@@ -334,6 +334,7 @@ GameObject:
   - component: {fileID: 5431787849059294631}
   - component: {fileID: 5397310002377021673}
   - component: {fileID: 5454569397852341145}
+  - component: {fileID: 7247636955608150598}
   m_Layer: 0
   m_Name: BoatProbes
   m_TagString: Untagged
@@ -406,7 +407,7 @@ MonoBehaviour:
   _dragInWaterForward: 0.5
   _enginePower: 5
   _turnPower: 0.5
-  _playerControlled: 1
+  _playerControlled: 0
   _engineBias: 0
   _turnBias: 0
 --- !u!54 &5454569397852341145
@@ -425,6 +426,22 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7247636955608150598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5436977676791214417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bace698cbcdd99d429f620dc77c8a299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerControlled: 1
+  _turningHeel: 0.35
+  forwardSpeed: 1
+  turnSpeed: 0
 --- !u!1 &5437036066629687925
 GameObject:
   m_ObjectHideFlags: 0
