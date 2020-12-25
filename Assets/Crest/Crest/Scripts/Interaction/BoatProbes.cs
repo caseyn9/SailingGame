@@ -166,6 +166,11 @@ namespace Crest
                 {
                     _rb.AddForceAtPosition(archimedesForceMagnitude * heightDiff * Vector3.up * _forcePoints[i]._weight * _forceMultiplier / _totalWeight, _queryPoints[i]);
                 }
+                //else if(heightDiff < 0)
+                //{
+                //    Debug.Log("HERE");
+                //    _rb.AddForceAtPosition(new Vector3(0, -9.81f, 0) , _queryPoints[i]);
+                //}
             }
         }
 
